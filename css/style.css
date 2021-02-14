@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+
+body {
+    background-color: white;
+    width: 100%;
+    text-align: left;
+}
+
+#wrap {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    background-color: white;
+    border: solid 1px rgb(172, 168, 168);
+}
+
+/* -------------- ヘッダー ---------------------- */
+header {
+    border-bottom: solid 1px rgb(172, 168, 168);
+    width: 100%;
+}
+
+.midashi_1 {
+    margin-top: 5px;
+    margin-left: 8%;
+    display: flex;
+}
+
+.midashi_2 {
+    margin-top: -40px;
+    margin-left: 30px;
+}
+
+.arrow {
+    color: rgb(134, 134, 252);
+    font-size: 35px;
+    width: 6%;
+    margin-top: 25px;
+}
+
+.name_1 {
+    font-size: 26px;
+    margin-left: 60px;
+    margin-bottom: -15px;
+}
+
+.tweat {
+    font-size: 14px;
+    color: rgb(146, 143, 143);
+    margin-left: 14%;
+    margin-top: -10px;
+}
+
+/* ------------ タイトル ------------------- */
+.picture {
+    display: flex;
+    width: 16%;
+}
+
+.title_1 {
+    display: flex;
+}
+
+.smile {
+    background-image: url(smile.jpg);
+    width: 45%;
+    /*  height: 70%;  */
+    margin: 20px;
+    border-radius: 100%;
+    background-position: right;
+    text-align: left;
+}
+
+.name_2 {
+    font-size: 20px;
+    width: 97%;
+}
+
+.name_3 {
+    font-size: 23px;
+    width: 100%;
+}
+
+.name_4 {
+    font-size: 23px;
+    width: 100%;
+}
+
+.account {
+    color: rgb(146, 143, 143);
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.shukushou {
+    color: rgb(146, 143, 143);
+    font-size: 18px;
+    margin-left: 37px;
+}
+
+.information {
+    font-size: 18px;
+}
+
+.check {
+    color: green;
+    margin-right: 15px;
+}
+
+
+/* ------------ 書き込み ----------------- */
+.kakikomi {
+    font-size: 20px;
+}
+
+.write {
+    margin-left: 13%;
+}
+
+.effort_1 {
+    margin-top: 15px;
+}
+
+.kekka {
+    margin-top: 20px;
+}
+
+/* ------------- アイコン ------------------ */
+.icon {
+    display: flex;
+    font-size: 25px;
+    margin-left: 13%;
+    margin-top: 30px;
+}
+
+.comment {
+    margin-right: 40px;
+}
+
+.yaritori {
+    margin-right: 40px;
+}
+
+.heart {
+    margin-right: 40px;
+}
+
+.iine {
+    margin-right: 40px;
+}
+
+.number {
+    margin-left: 20px;
+}
+
+
+
+/* ------------- 引用 ---------------------- */
+.ps {
+    font-size: 14px;
+    margin-left: 13%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
